@@ -1,0 +1,28 @@
+.footerContainer {
+  border: 1px solid black;
+  margin-top: 50px;
+  height: 111px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #001963;
+  color: white;
+}
+.footerContainer > ul {
+  display: flex;
+  gap: 21px;
+}
+.footerContainer > ul > li {
+  list-style: none;
+}
+ul {
+  display: flex;
+  gap: 21px;
+  justify-content: space-between;
+}
+.lastContainer > ul > li {
+  list-style: none;
+}
+ol > li {
+  line-height: 40px;
+}
